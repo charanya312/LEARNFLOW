@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 80px; /* Adjusted padding */
+  text-align: left;
+}
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  width: calc(100% - 20px); /* Subtracting the padding from the width */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  width: 100%; /* Make the button fill the width of its container */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block; /* Ensure the button is displayed as a block element */
+  margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center; /* Center the content */
+  background-color: black; /* Set background color */
+  color: white;
+  margin-top: 330px;
+}

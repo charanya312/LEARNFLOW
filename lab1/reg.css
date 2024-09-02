@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 80px; /* Adjusted padding */
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px; /* Increased margin bottom for spacing */
+}
+input[type="tel"] {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+button[type="submit"] {
+  width: 100%; /* Make the button fill the width of its container */
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block; /* Ensure the button is displayed as a block element */
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color:red;
+}
+
+footer {
+  text-align: center; /* Center the content */
+  background-color: black; /* Set background color */
+  color: white;
+  margin-top: 183px;
+}

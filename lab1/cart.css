@@ -1,0 +1,76 @@
+.cart-items {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  text-align: center;
+  margin-bottom: 20px; /* Add margin at the bottom of the container */
+}
+
+.cart-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; /* Align the content of the cart container at the center */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Add border to create card effect */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  padding: 15px; /* Add padding for spacing within the card */
+  margin-top: 10px;
+}
+
+.cart-item img {
+  width: 150px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.item-details {
+  flex-grow: 1;
+  margin-right: 300px;
+}
+
+.remove-btn {
+  padding: 8px 16px;
+  background-color: black; /* Red color for remove button */
+  color:white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #c82333; /* Darker red color on hover */
+}
+
+.cart-summary {
+  margin-top: 20px;
+  text-align: center;
+}
+.checkout-btn {
+  padding: 10px 20px;
+  background-color:black;
+  color:white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.checkout-btn:hover {
+  background-color:#c82333;
+}
+footer {
+  text-align: center; /* Center the content */
+  background-color: black; /* Set background color */
+  color: white;
+  margin-top: 35px;
+  padding: 10px;
+}
